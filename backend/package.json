@@ -1,0 +1,19 @@
+{
+  "name": "apv-backend",
+  "version": "1.0.0",
+  "description": "fulltackMERN",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-Andy9/fullstackMERN.git"
+  },
+  "author": "Andy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-Andy9/fullstackMERN/issues"
+  },
+  "homepage": "https://github.com/i-Andy9/fullstackMERN#readme"
+}
