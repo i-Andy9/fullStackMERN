@@ -1,10 +1,12 @@
 {
   "name": "apv-backend",
   "version": "1.0.0",
+  "type": "module",
   "description": "fulltackMERN",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/i-Andy9/fullstackMERN/issues"
   },
-  "homepage": "https://github.com/i-Andy9/fullstackMERN#readme"
+  "homepage": "https://github.com/i-Andy9/fullstackMERN#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
